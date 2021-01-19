@@ -1,0 +1,18 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            AcademiaDev
+tagline:          'Um blog da comunidade para a comunidade'
+description:      'O Academia Dev é um blog de iniciativa do <a href="https://pyjobs.com.br">PyJobs</a> e <a href="http://frontjobs.com.br">FrontJobs</a> para melhorar os seus estudos'
+url:              http://hyde.getpoole.com
+baseurl:          /
+
+paginate:         10
+
+# Custom vars
+version:          2.1.0

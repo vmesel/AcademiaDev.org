@@ -1,18 +1,25 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+title:              Academia Dev
+email:              vinicius@pyjobs.com.br
+description:        Um blog da comunidade para a comunidade
+author:             AcademiaDev
+baseurl:            "/blog"
+url:                "https://academiadev.org"
 
-# Permalinks
-permalink:        pretty
+# Social Profiles
+twitter_username:   
+github_username:    
+facebook_username:  
+instagram_username:  
+linkedin_username:
 
-# Setup
-title:            AcademiaDev
-tagline:          'Um blog da comunidade para a comunidade'
-description:      'O Academia Dev é um blog de iniciativa do <a href="https://pyjobs.com.br">PyJobs</a> e <a href="http://frontjobs.com.br">FrontJobs</a> para melhorar os seus estudos'
-url:              http://hyde.getpoole.com
-baseurl:          /
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
-paginate:         10
-
-# Custom vars
-version:          2.1.0
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
