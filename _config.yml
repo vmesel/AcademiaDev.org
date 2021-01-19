@@ -4,23 +4,15 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            AcademiaDev
+tagline:          'Um blog da comunidade para a comunidade'
+description:      'O Academia Dev é um blog de iniciativa do <a href="https://pyjobs.com.br">PyJobs</a> e <a href="http://frontjobs.com.br">FrontJobs</a> para melhorar os seus estudos'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
-paginate:         5
+paginate:         10
 
 # Custom vars
 version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
