@@ -2,6 +2,7 @@ title:              Academia Dev
 email:              vinicius@pyjobs.com.br
 description:        Um blog da comunidade para a comunidade
 author:             AcademiaDev
+baseurl:            "/"
 url:                "https://academiadev.org"
 
 # Social Profiles
