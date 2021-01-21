@@ -19,15 +19,15 @@ background: '/img/posts/06.jpg'
 <p>Redux funciona da seguinte forma:</p>
 
 <ul>
-    <li>Usamos dispatch para acessar e executar as funções do redux que são declaradas no arquivo <pre>actions</pre></li>
-    <li>Nesse arquivo actions obrigatoriamente retornamos um objeto que tem um parametro necessário, <pre>type</pre>, esse tipo é um aviso, um aviso pra o código executar alguma função vinculada à ele</li>
+    <li>Usamos dispatch para acessar e executar as funções do redux que são declaradas no arquivo <b>actions</b></li>
+    <li>Nesse arquivo actions obrigatoriamente retornamos um objeto que tem um parametro necessário, <b>type</b>, esse tipo é um aviso, um aviso pra o código executar alguma função vinculada à ele</li>
     <li>No arquivo reducers vinculamos os tipos que são 'dispatched' com manipulações de estados.</li>
     <li>Na screenshot a seguir vemos o tipo TODO_INSERT sendo disparado ao clicar o botão 'insert a new todo', ao clicar nesse botão executamos dispatch na função que retorna um tipo, esse tipo é recebido pelo reducer, junto com uma string. No reducer inserimos esse todo no array de todo's, inicialmente vazio. E a página é atualizada para refletir essa mudança.</li>
 </ul>
 
-<img src="https://i.ibb.co/zGd8scL/reducer-changing-state.png" alt="" width="300">
-<img src="https://i.ibb.co/vhL6YhR/action-redux.png" alt="" width="300">
-<img src="https://i.ibb.co/yX9xQ7n/redux-action.png" alt="" width="300">
+<img src="https://i.ibb.co/zGd8scL/reducer-changing-state.png" alt="" style="max-width: 750px; min-width: 300px; height: auto;">
+<img src="https://i.ibb.co/vhL6YhR/action-redux.png" alt="" style="max-width: 750px; min-width: 300px; height: auto;">
+<img src="https://i.ibb.co/yX9xQ7n/redux-action.png" alt="" style="max-width: 750px; min-width: 300px; height: auto;">
 
 
 <p>Artigo escrito por <a href="https://www.linkedin.com/in/renan-sanches-40b9a61a/">Renan Sanches</a></p>
