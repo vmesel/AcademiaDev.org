@@ -8,11 +8,11 @@ background: '/img/posts/06.jpg'
 
 <p>Qual programador em react nunca entrou em desespero tentando entender o funcionamento de redux pela primeira vez? Lendo a documentação, tutoriais e não entendendo como funciona o fluxo dos reducers, states, actions e store?</p>
 
-<p>O proposito desse tutorial em três partes  é explicar da maneira mais simples possível para que todos possam enender de uma vez por todas como funciona essa tecnologia. Para isso vamos fazer o exemplo clássico de uma aplicação exemplo: - uma lista Todo.</p>
+<p>O proposito desse tutorial em três partes  é explicar da maneira mais simples possível para que todos possam entender de uma vez por todas como funciona essa tecnologia. Para isso vamos fazer o exemplo clássico de uma aplicação exemplo: - uma lista Todo.</p>
 
 <p>Antes disso, uma explicação introdutória.</p>
 
-<h3>Parte 1 - Explicação introdutória.</h3>
+<h3>Parte 1.</h3>
 
 <p>O redux é uma tecnologia do react que serve para adicionar à uma aplicação uma maneira de ter um controle de estado global. Por muitos anos redux era basicamente a unica opção utilizada para esse escopo, no entanto , atualmente temos algumas outras opções, como o useContext do hooks.</p>
 
@@ -20,9 +20,9 @@ background: '/img/posts/06.jpg'
 
 <ul>
     <li>Usamos dispatch para acessar e executar as funções do redux que são declaradas no arquivo <b>actions</b></li>
-    <li>Nesse arquivo actions obrigatoriamente retornamos um objeto que tem um parametro necessário, <b>type</b>, esse tipo é um aviso, um aviso pra o código executar alguma função vinculada à ele</li>
+    <li>Nesse arquivo actions obrigatoriamente retornamos um objeto que tem um parametro necessário, <b>type</b>, esse tipo é um aviso pra o código executar alguma função vinculada a ele</li>
     <li>No arquivo reducers vinculamos os tipos que são 'dispatched' com manipulações de estados.</li>
-    <li>Na screenshot a seguir vemos o tipo TODO_INSERT sendo disparado ao clicar o botão 'insert a new todo', ao clicar nesse botão executamos dispatch na função que retorna um tipo, esse tipo é recebido pelo reducer, junto com uma string. No reducer inserimos esse todo no array de todo's, inicialmente vazio. E a página é atualizada para refletir essa mudança.</li>
+    <li>No screenshot a seguir vemos o tipo TODO_INSERT sendo disparado ao clicar o botão 'insert a new todo', ao clicar nesse botão executamos dispatch na função que retorna um tipo, que é recebido pelo reducer, junto com uma string. No reducer inserimos esse todo no array de todo's, inicialmente vazio. E a página é atualizada para refletir essa mudança.</li>
 </ul>
 
 <img src="https://i.ibb.co/zGd8scL/reducer-changing-state.png" alt="" style="max-width: 750px; min-width: 300px; height: auto;">
